@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Calculator.jar" size="326830" download="eager" />
+    <jar href="Calculator.jar" size="326872" download="eager" />
     <jar href="lib\jssc-2.9.4.jar" size="446161" download="eager" />
     <jar href="lib\native-lib-loader-2.3.6.jar" size="20386" download="eager" />
     <jar href="lib\slf4j-api-1.7.30.jar" size="41472" download="eager" />

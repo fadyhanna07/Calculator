@@ -18,11 +18,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="673.0" prefWidth="741.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLDocumentController">
+<AnchorPane id="AnchorPane" minWidth="200.0" prefHeight="674.0" prefWidth="410.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.FXMLDocumentController">
     <children>
       <BorderPane prefHeight="673.0" prefWidth="741.0">
          <top>
-            <MenuBar prefHeight="64.0" prefWidth="876.0" BorderPane.alignment="CENTER">
+            <MenuBar maxWidth="410.0" prefHeight="64.0" prefWidth="410.0" BorderPane.alignment="TOP_LEFT">
               <menus>
                 <Menu mnemonicParsing="false">
                      <graphic>
@@ -138,7 +138,7 @@
                         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#write_num" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="5" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#write_num" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="1" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.rowIndex="4" />
                         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#write_num" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="2" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#write_num" onKeyPressed="#listen_pressed" prefHeight="245.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="3" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#write_num" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="3" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="4" />
                         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="." textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="2" GridPane.rowIndex="5" />
                         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="+/-" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.rowIndex="5" />
                         <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#write_num" onKeyPressed="#listen_pressed" prefHeight="64.0" prefWidth="73.0" style="-fx-background-radius: 500;" styleClass="button_num" stylesheets="@../CSS/sample.css" text="0" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" GridPane.columnIndex="1" GridPane.rowIndex="5" />

@@ -5,23 +5,30 @@
 .button_num{
     
     -fx-background-color: #5945da;
+    
 }
-
+.button_num:hover{
+    -fx-background-color:#a093eb;}
 
 .button_op{
     
     -fx-background-color: #5945da;
 }
+.button_op:hover{
+    -fx-background-color:#a093eb;}
 
 
 
 .text_op{
     
     -fx-background-color: #5945da;
+    
 }
 .text-num{
     
-    -fx-background-color: white;
+    -fx-background-color: white ;
+     
+    
 }
 
 
